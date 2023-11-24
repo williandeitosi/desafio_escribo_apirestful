@@ -5,11 +5,16 @@
         "es2021": true,
         "node": true
     },
-    "extends": "airbnb-base",
+    "extends": [
+        "airbnb-base",
+        "prettier"
+    ],
     "parserOptions": {
         "ecmaVersion": "latest"
     },
     "rules": {
-        
+        "consistent-return": "off",
+        "no-underscore-dangle": "off",
+        "radix": "off"
     }
 }
