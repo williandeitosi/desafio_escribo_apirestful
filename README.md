@@ -20,8 +20,11 @@ npm install
 Certifique-se de criar um arquivo `.env` na raiz do projeto com as seguintes variáveis:
 
 MONGODB_URI=URI_do_seu_Banco_de_Dados_MongoDB
+
 JWT_SECRET=Sua_chave_secreta_para_gerar_tokens_JWT
+
 TOKEN_EXPIRATION=Tempo_de_expiração_para_o_token_em_segundos
+
 PORT=Porta_do_servidor_express
 
 
